@@ -98,6 +98,77 @@
             body, #container {
                 background-color: chartreuse;
             }
+            #container{ 
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(10, 1fr);
+            }
+            #m1{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            #m2{
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 1;
+                grid-row-end: 3;
+            }
+            #m3{
+                grid-column-start: 5;
+                grid-column-end: 6;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+            #m4{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 2;
+                grid-row-end: 5;
+            }
+            #m5{
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 2;
+                grid-row-end: 5;
+            }
+            #m6{
+                grid-column-start: 5;
+                grid-column-end: 6;
+                grid-row-start: 2;
+                grid-row-end: 4;
+            }
+            #m7{
+                grid-column-start: 3;
+                grid-column-end: 5;
+                grid-row-start: 3;
+                grid-row-end: 4;
+            }
+            #m8{
+                grid-column-start: 4;
+                grid-column-end: 6;
+                grid-row-start: 4;
+                grid-row-end: 6;
+            }
+            #m9{
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 5;
+                grid-row-end: 8;
+            }
+            #m10{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 6;
+                grid-row-end: 9;
+            }
+            #m11{
+                grid-column-start: 4;
+                grid-column-end: 6;
+                grid-row-start: 6;
+                grid-row-end: 7;
+            }
         }
         @media (max-width: 600px) {
             body, #container {
